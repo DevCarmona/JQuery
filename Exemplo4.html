@@ -16,7 +16,17 @@
     <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
     <script>
         $(document).ready(function() {
-            $()
+            $("#botao1").on("click", function() {
+                $(this).css("color","red");
+            })
+
+            $("#botao2").on("click",function() {
+                $(this).css("color","blue");
+            })
+
+            $("#botao3").on("click",function() {
+                $(this).css("background-color", "orange");
+            })
         });
     </script>
 </body>
